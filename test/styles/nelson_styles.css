@@ -1,0 +1,16 @@
+img {
+    width: 25%;
+}
+body {
+    background-color: palevioletred;
+    width: 100%;
+    text-align: center;
+}
+h1, h2, h3, h4{
+    color: white;
+}
+h4{
+    width: 25%;
+    margin: auto;
+    font-size: 1.7em;
+}
