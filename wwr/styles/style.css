@@ -8,6 +8,9 @@ body{
 header{
     background-color: #1B746E;
 }
+.logo{
+    width: 80px;
+}
 nav a{
     text-align: center;
     color: #FF9F1C;
@@ -17,18 +20,20 @@ nav a:hover{
     background-color: #FFBF69;
     color: black;
 }
-#hero-msg h1, #hero-msg h4{
+#hero_msg h1, #hero_msg h4{
     text-align: center;
 }
-.button-box{
-    text-align: center;
+#hero_image{
+    width: 100%;
 }
-main section{
-    text-align: center;
+.home_title{
+    color: white;
 }
-#background{
-    height: 725px;
-    background-color: #FFBF69;
+h4{
+    color: white;
+}
+.button_box{
+    text-align: center;
 }
 .book, .join{
     background-color: #FFBF69;
@@ -38,6 +43,16 @@ main section{
 .book:hover, .join:hover{
     background-color: #1B746E;
     color: white;
+}
+main section{
+    text-align: center;
+}
+.icon{
+    width: 80px;
+}
+#background{
+    height: 725px;
+    background-color: #FFBF69;
 }
 .msg{
     background-color: #FFBF69;
@@ -52,12 +67,6 @@ footer{
     background-color: #1B746E;
     color: #FF9F1C;
 }
-.home_title{
-    color: white;
-}
-h4{
-    color: white;
-}
 footer a{
     color: #FF9F1C;
     text-decoration: none;
@@ -71,13 +80,4 @@ footer p{
 }
 footer p a:hover {
     text-decoration: underline;
-}
-.logo{
-    width: 80px;
-}
-.icon{
-    width: 80px;
-}
-#hero_img{
-    width: 100%;
 }
