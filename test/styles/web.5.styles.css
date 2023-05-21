@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.banner{
+    text-align: center;
+    margin: auto;
+}
+
+.banner img{
+    width: 80%;
+}
+
+.circle{
+    background-color: gray;
+    text-align: center;
+    width: 80%;
+    margin: -40px auto;
+    padding: 40px 0;
+}
+
+.circle img{
+    border-radius: 100%;
+    width: 25%;
+    text-align: center;
+    margin: 25px;
+    border: 15px solid rgb(71, 71, 71);
+}
