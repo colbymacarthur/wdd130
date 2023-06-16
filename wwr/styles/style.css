@@ -236,7 +236,7 @@ footer .social img{
     color: #1B746E;
     text-indent: 30px;
 }
-.idaho p{
+.idaho h3{
     padding: 35px;
 }
 .idaho_river1{
@@ -275,7 +275,7 @@ footer .social img{
     color: #1B746E;
     text-indent: 30px;
 }
-.utah p{
+.utah h3{
     padding: 35px;
 }
 .utah_river1{
@@ -297,7 +297,7 @@ footer .social img{
     text-align: center;
     padding-bottom: 20px;
     padding-top: 20px;
-}
+} 
 .arizona{
     grid-column: 1/5;
     grid-row: 9/11;
@@ -307,7 +307,7 @@ footer .social img{
     color: #1B746E;
     text-indent: 30px;
 }
-.arizona p{
+.arizona h3{
     padding: 35px;
 }
 .arizona_river1{
