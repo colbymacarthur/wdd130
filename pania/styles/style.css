@@ -129,15 +129,19 @@ h1, h2{
 
 .contact{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+}
+.info{
+    grid-column: 2/3;
 }
 .map {
     padding-bottom: 50%;
     position: relative;
+    grid-column: 4/5;
 }
 .map iframe {
-    height: 50%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
     left: 0;
     top: 0;
     position: absolute;
@@ -154,7 +158,26 @@ h1, h2{
     grid-column: 4/5;
 }
 
-
+.history{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.img1{
+    grid-column: 2/4;
+    width: 100%;
+}
+.img2{
+    grid-column: 5/7;
+    width: 100%;
+}
+.img3{
+    grid-column: 8/10;
+    width: 100%;
+}
+.history article{
+    grid-column: 2/9;
+    grid-row: 2/3;
+}
 
 
 /* This is for the footer on each page */
