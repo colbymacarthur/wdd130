@@ -210,8 +210,16 @@ footer .social img{
 
 
 /* Pastries css */
+.pastry1{
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
 .menu{
     background-color: #BAE4E6;
+    grid-column: 1/5;
+    padding: 10px;
 }
 .item p {
     display: inline-block;
@@ -233,6 +241,40 @@ margin-top: 5px;
 margin-bottom: 5px;
 font-size: 18px;
 }
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: 5/14;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.grid1 img {
+    width: 100% !important;
+    height: auto !important;
+ }
+ .pastry2{
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.menu2{
+    background-color: #BAE4E6;
+    grid-column: 10/14;
+    padding: 10px;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: 1/10;
+    grid-row: 1/2;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.grid2 img {
+    width: 100% !important;
+    height: auto !important;
+ }
 
 
 
